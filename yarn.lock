@@ -18,6 +18,11 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
+"@tao-zhi-xue-tang/type-is@x":
+  version "1.1.1"
+  resolved "http://registry.npm.taobao.org/@tao-zhi-xue-tang/type-is/download/@tao-zhi-xue-tang/type-is-1.1.1.tgz#1afbffc80ccd3540bdff195a28600e8e1a5fe926"
+  integrity sha1-Gvv/yAzNNUC9/xlaKGAOjhpf6SY=
+
 acorn-jsx@^5.0.0:
   version "5.0.0"
   resolved "http://registry.npm.taobao.org/acorn-jsx/download/acorn-jsx-5.0.0.tgz#958584ddb60990c02c97c1bd9d521fce433bb101"
