@@ -1,0 +1,17 @@
+{
+  "name": "@tao-zhi-xue-tang/collection",
+  "version": "1.0.6",
+  "main": "index.js",
+  "repository": "https://gitlab.com/resource-development-office/tao-zhi-xue-tang/js-collection.git",
+  "author": "MhcII <snail975@gmail.com>",
+  "description": "",
+  "keyword": "collection",
+  "scripts": {
+    "publish": "npm publish --access=public --registry http://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
