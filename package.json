@@ -11,7 +11,9 @@
     "publish:npm": "npm publish --access=public --registry http://registry.npmjs.org",
     "git:refresh": "git rm --cached -f -r . && git add ."
   },
-  "dependencies": {},
+  "dependencies": {
+    "@ner-zhul/type-is": "x"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
@@ -22,8 +24,7 @@
     "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.3",
-    "rollup": "^0.67.4",
-    "rollup-plugin-yaml": "^1.1.0"
+    "rollup": "^0.67.4"
   },
   "files": [
     "dist"

@@ -583,6 +583,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@ner-zhul/type-is@x":
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/@ner-zhul/type-is/download/@ner-zhul/type-is-1.0.0.tgz#054032b94fcef74e1086c77410d6d3ec6edda8bc"
+  integrity sha1-BUAyuU/O904Qhsd0ENbT7G7dqLw=
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "http://registry.npm.taobao.org/@types/estree/download/@types/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -1656,16 +1661,6 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "http://registry.npm.taobao.org/estraverse/download/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
   integrity sha1-De4/7TH81GlhjOc0IJn8GvoL2xM=
-
-estree-walker@^0.2.1:
-  version "0.2.1"
-  resolved "http://registry.npm.taobao.org/estree-walker/download/estree-walker-0.2.1.tgz#bdafe8095383d8414d5dc2ecf4c9173b6db9412e"
-  integrity sha1-va/oCVOD2EFNXcLs9MkXO225QS4=
-
-estree-walker@^0.5.2:
-  version "0.5.2"
-  resolved "http://registry.npm.taobao.org/estree-walker/download/estree-walker-0.5.2.tgz#d3850be7529c9580d815600b53126515e146dd39"
-  integrity sha1-04UL51KclYDYFWALUxJlFeFG3Tk=
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -2886,7 +2881,7 @@ js-tokens@^3.0.2:
   resolved "http://registry.npm.taobao.org/js-tokens/download/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
   integrity sha1-mGbfOVECEw449/mWvOtlRDIJwls=
 
-js-yaml@^3.12.0, js-yaml@^3.7.0, js-yaml@^3.8.4:
+js-yaml@^3.12.0, js-yaml@^3.7.0:
   version "3.12.0"
   resolved "http://registry.npm.taobao.org/js-yaml/download/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   integrity sha1-6u1lbsg0TxD1J8a/obbiJE3hZ9E=
@@ -3194,7 +3189,7 @@ mimic-fn@^1.0.0:
   resolved "http://registry.npm.taobao.org/mimic-fn/download/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
   integrity sha1-ggyGo5M0ZA6ZUWkovQP8qIBX0CI=
 
-minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
+minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
@@ -4038,39 +4033,6 @@ rimraf@^2.5.4, rimraf@^2.6.1, rimraf@~2.6.2:
   dependencies:
     glob "^7.0.5"
 
-rollup-plugin-json@^2.0.1:
-  version "2.3.1"
-  resolved "http://registry.npm.taobao.org/rollup-plugin-json/download/rollup-plugin-json-2.3.1.tgz#9759d27f33dcd2c896de18b6235df162b88edd77"
-  integrity sha1-l1nSfzPc0siW3hi2I13xYriO3Xc=
-  dependencies:
-    rollup-pluginutils "^2.0.1"
-
-rollup-plugin-yaml@^1.1.0:
-  version "1.1.0"
-  resolved "http://registry.npm.taobao.org/rollup-plugin-yaml/download/rollup-plugin-yaml-1.1.0.tgz#8b55fd8bc6a483018abedfc7192dde0fdc65666b"
-  integrity sha1-i1X9i8akgwGKvt/HGS3eD9xlZms=
-  dependencies:
-    js-yaml "^3.8.4"
-    rollup-plugin-json "^2.0.1"
-    rollup-pluginutils "^1.5.1"
-    tosource "^1.0.0"
-
-rollup-pluginutils@^1.5.1:
-  version "1.5.2"
-  resolved "http://registry.npm.taobao.org/rollup-pluginutils/download/rollup-pluginutils-1.5.2.tgz#1e156e778f94b7255bfa1b3d0178be8f5c552408"
-  integrity sha1-HhVud4+UtyVb+hs9AXi+j1xVJAg=
-  dependencies:
-    estree-walker "^0.2.1"
-    minimatch "^3.0.2"
-
-rollup-pluginutils@^2.0.1:
-  version "2.3.3"
-  resolved "http://registry.npm.taobao.org/rollup-pluginutils/download/rollup-pluginutils-2.3.3.tgz#3aad9b1eb3e7fe8262820818840bf091e5ae6794"
-  integrity sha1-Oq2bHrPn/oJigggYhAvwkeWuZ5Q=
-  dependencies:
-    estree-walker "^0.5.2"
-    micromatch "^2.3.11"
-
 rollup@^0.67.4:
   version "0.67.4"
   resolved "http://registry.npm.taobao.org/rollup/download/rollup-0.67.4.tgz#8ed6b0993337f84ec8a0387f824fa6c197e833ec"
@@ -4543,11 +4505,6 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
-
-tosource@^1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/tosource/download/tosource-1.0.0.tgz#42d88dd116618bcf00d6106dd5446f3427902ff1"
-  integrity sha1-QtiN0RZhi88A1hBt1URvNCeQL/E=
 
 tough-cookie@>=2.3.3, tough-cookie@^2.3.4:
   version "2.5.0"
