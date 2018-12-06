@@ -1,4 +1,5 @@
 /.idea
-/yarn-error.log
 /node_modules
+/yarn-error.log
 /document
+/dist
