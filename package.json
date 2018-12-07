@@ -1,12 +1,13 @@
 {
   "name": "@ner-zhul/collection",
   "version": "1.0.0",
-  "main": "./dist/collection.js",
+  "main": "./dist/collection.cjs.js",
+  "module": "./dist/collection.js",
   "author": "MhcII <snail975@gmail.com>",
   "repository": "https://github.com/ner-zhul/collection.git",
   "scripts": {
-    "dev": "rollup -c rollup.config.js  --watch",
-    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -cw",
+    "build": "rollup -c",
     "test": "jest",
     "publish:npm": "npm publish --access=public --registry http://registry.npmjs.org",
     "git:refresh": "git rm --cached -f -r . && git add ."

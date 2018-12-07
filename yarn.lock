@@ -584,9 +584,9 @@
     to-fast-properties "^2.0.0"
 
 "@ner-zhul/type-is@x":
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/@ner-zhul/type-is/download/@ner-zhul/type-is-1.0.0.tgz#054032b94fcef74e1086c77410d6d3ec6edda8bc"
-  integrity sha1-BUAyuU/O904Qhsd0ENbT7G7dqLw=
+  version "1.0.2"
+  resolved "http://registry.npm.taobao.org/@ner-zhul/type-is/download/@ner-zhul/type-is-1.0.2.tgz#ccb708c11ef26e61cb616bbb0e27cb9c58561d56"
+  integrity sha1-zLcIwR7ybmHLYWu7DifLnFhWHVY=
 
 "@types/estree@0.0.39":
   version "0.0.39"
